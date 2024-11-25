@@ -1,0 +1,191 @@
+/* General reset for the body and elements */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    border-bottom: 2px solid #ccc; /* Border to separate the header */
+}
+
+/* Left section of the header */
+.headLeft {
+    display: flex;
+    align-items: center;
+}
+
+.logoLeft img {
+    max-width: 60px; /* Adjust the size of the logo */
+    margin-right: 15px;
+}
+
+.logoRight h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logoRight p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+/* Styling for the top navigation menu */
+.topNav {
+    display: flex;
+}
+
+.topNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.topNav li {
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.topNav li:hover {
+    text-decoration: underline; /* Add underline effect on hover */
+}
+
+/* Styling for the topTicker */
+.topTicker {
+    background-color: #5a95d0; /* Light gray background */
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #ccc; /* Add separation line */
+}
+
+.topTicker p {
+    font-weight: bold;
+    margin: 0;
+}
+
+marquee {
+    font-size: 14px;
+    font-weight: bold;
+    color: hwb(0 100% 0%);
+}
+
+/* Main container styling */
+.menuHome {
+    border: 2px solid #2c3e50;
+    padding: 15px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px;
+}
+
+/* Header styling */
+.menuHomeTransition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menuHomeTransition img {
+    margin-right: 10px;
+}
+
+.menuHomeTransition p {
+    flex-grow: 1;
+    font-size: 18px;
+    margin: 0;
+    color: #34495e;
+}
+
+
+
+
+
+
+
+
+.menuContainer {
+   /* Use Flexbox for layout */
+    
+    justify-content: space-between;
+    
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Add spacing between cards */
+    padding: 20px; /* Add some padding around the container */
+}
+
+.menuHomeTransition {
+    flex: 1;
+    text-align: center; /* Center the content inside each card */
+    border: 1px solid #ccc; /* Optional: Add a border to each card */
+    border-radius: 10px; /* Optional: Rounded corners for cards */
+    margin: 50px;
+    padding: 10px; /* Add padding inside the card */
+    width: 150px; /* Set a fixed width for each card */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Add a shadow for better look */
+    transition: transform 0.2s; /* Add a hover effect */
+}
+
+.menuHomeTransition:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.menuHomeTransition img {
+    margin-bottom: 10px; /* Add some space between the image and the text */
+}
+
+.menuHome {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing as needed */
+  }
+
+  .latestUpdates {
+    background-color: #f8f9fa; /* Light background color */
+    width: 300px;
+    margin-left:40px;
+    padding-left: 40px;;
+    border: 1px solid #dee2e6; /* Border around the section */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the div */
+    margin: 20px 0; /* Margin above and below the div */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.sectionHead {
+    font-size: 24px; /* Larger font size for the heading */
+    color: #343a40; /* Darker text color */
+    margin-bottom: 15px; /* Space below the heading */
+    text-align: center; /* Center the heading text */
+}
+
+.UpdatesWrap {
+    height: 200px; /* Fixed height for the updates area */
+    width: 100px;
+    overflow: hidden; /* Hide overflow to maintain the height */
+    position: relative; /* Positioning context for marquee */
+}
+
+marquee {
+    font-size: 18px; /* Font size for the marquee text */
+    color: #007bff; /* Blue color for the text */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+  
+  
+
+

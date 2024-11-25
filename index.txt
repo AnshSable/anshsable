@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP Police</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="gutterSpace" data-aos="fade-down">
+        <div class="headLeft Section" data-aos="fade-right" >
+            <div class="logoLeft Section" >
+            <img src="MP-POLICE_0_0.png" alt="MP Police">
+            </div>
+
+            <div class="logoRight Section" title="MP Police">
+                <h3>MP Police</h3>
+                <p>Official Website</p>
+            </div>
+
+        </div>
+
+        <div  class="headLeft Section">
+            <div class="topNav">
+                <ul>
+                    <li>Emergency Dial</li>
+                    <li>E-office</li>
+                    <li>Email</li>
+                    <li>contact us</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="topTicker"data-aos="fade-down">
+        <p>Headlines</p>
+        <marquee behavior="scroll" direction="left" scrollamount="20">
+            work in progress    .....  
+        </marquee>
+
+    </div>
+
+    <div class="homeBanner">
+
+    </div>
+
+    <div class ="menuHome">
+        <div class="menuHomeTransition">
+            <img src="handcuffs.svg" alt="Police" title="crimeRelated" width="40"height="50">
+            <p>Criminal Information</p>
+        </div>
+
+        
+
+        <div class="menuHomeTransition">
+            <img src="handcuffs.svg" alt="Police" title="crimeRelated" width="40"height="50">
+            <p>Flash</p>
+        </div>
+
+        <div class="menuHomeTransition">
+            <img src="handcuffs.svg" alt="Police" title="crimeRelated" width="40"height="50">
+            <p>Police Recuritment </p>
+        </div>
+
+        <div class="menuHomeTransition">
+            <img src="handcuffs.svg" alt="Police" title="crimeRelated" width="40"height="50">
+            <p>Community Policing</p>
+        </div>
+
+    </div>
+
+    <div class="latestUpdates">
+        <h3 class ="sectionHead">News Updates</h3>
+        <div class="UpdatesWrap">
+            <marquee behavior="scroll" direction="up" scrollamount="2" loop="true">
+                <ul>
+                    <li>jsdfsjdlf</li>
+                    <li>jsdfsjdlf</li>
+                    <li>jsdfsjdlf</li>
+                    <li>jsdfsjdlf</li>
+                    <li>jsdfsjdlf</li>
+                    <li>jsdfsjdlf</li>
+                    <li>jsdfsjdlf</li>
+                    <li>jsdfsjdlf</li>
+                </ul>
+            </marquee>
+
+        </div>
+    </div>
+</body>
+</html>
